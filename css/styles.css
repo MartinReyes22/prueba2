@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+
+
+/* NAV */
+
+nav{
+    background-color: red; 
+    border-radius: 400px;
+}
+
+.nav_catalog{
+    background-color: white;
+    color: black;
+}
+
+.navbar_img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 150px;
+}
+
+
+
+#icon-car{
+    display: inline-block;
+    vertical-align: middle;
+    width: 80px;
+}
+
+/* HEADER */
+
+header{
+    background-color: white;
+    margin-top: 80px;
+    height: 500px;
+}
+
+#grid_header_home{
+    display: grid;
+    grid-template-columns: 55% 35%;
+    grid-template-rows:  50% 50%;
+    grid-template-areas:    "img boton1"
+                            "img boton2";
+    justify-content: space-around;
+    align-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+}
+
+.form_registro .button,
+#grid_header_home .button{
+    width: 100%;
+    background-color: red;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+/* MAIN */
+
+.main-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2800px;
+}
+
+
+.grid_section_index1{
+    display: grid;
+    grid-template-columns: 60% 25%;
+    grid-template-rows: 40% 40% ;
+    grid-template-areas:"slide boton1"
+                        "slide boton2";
+    justify-content: space-around;
+    align-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+}
+section{
+    background-color: rgb(196, 196, 21);
+    height: 25%;
+    width: 90%;
+    border-radius: 20px;
+}
+
+
+.card_padre{
+    display: flex;
+    height: 700px;
+    width: 85%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    margin-top: 90px;
+    border-radius: 50px;
+}
+.card_padre_registro{
+    display: flex;
+    height: 700px;
+    width: 85%;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    background-color: white;
+    margin-top: 90px;
+}
+
+.registro{
+    display: flex;
+    position: absolute;
+    float: left;
+}
+
+.sesion{
+    display: flex;
+    position: relative;
+    float: right;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    height: 120px;
+
+}
+
+
+.icon_media{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 40px;
+}
+
+.icon_media{
+    grid-area: buton;
+}
+
+
+
+.img_section{
+    grid-area: img;
+}
+
+
+
+section{
+    background-color: rgb(255, 255, 255);
+    height: 25%;
+    width: 90%;
+}
+.grid_section{
+    display: grid;
+    grid-template-columns: 55% 35%;
+    grid-template-rows: 10% 60% 10%;
+    grid-template-areas:    "img titulo"
+                            "img parrafo"
+                            "img boton";
+    justify-content: space-around;
+    align-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+}
+
+#form_datos_contacto{
+    grid-area: img;
+}
+
+.grid_section2{
+    display: grid;
+    grid-template-columns: 35% 55%;
+    grid-template-rows: 10% 60% 10%;
+    grid-template-areas:    "titulo img"
+                            "parrafo img"
+                            "boton img";
+    justify-content: space-around;
+    align-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+#boton1{
+    border-radius: 40px;
+}
+
+
+#boton2{
+    border-radius: 40px;
+}
+
+
+
+
+
+.slide{
+    height: 400px;
+    background-color: black;
+    margin-top: 200px;
+}
+
+
+
+.card_hijo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    height: 80%;
+    width: 30%;
+}
+
+.img_card{
+    height: 50%;
+    width: 90%;
+}
+
+.parrafo_card{
+    width: 90%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boton_card{
+    width: 40%;
+    height: 10%;
+    border-radius: 40px;
+    font-size: 20px;
+    background-color: black;
+    color: red;
+}
+
+
+
+.slide1{
+    height: 480px;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.form_registro{
+    display: block;
+    /* 
+     align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+    */
+   
+    width: 400px;
+    background-color: yellow;
+    padding: 30px;
+    margin-top: 130px;
+    border-radius: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 50px;
+
+}
+
+.form_registro h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.control{
+    width: 100%;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 4px ;
+    margin-bottom: 16px;
+    border: 1px solid red  ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+.form_registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.form_registro a{
+    color: black;
+    text-decoration: none;
+}
+
+.form_registro a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+
+.form_registro .button,
+#grid_header_home .button{
+    width: 100%;
+    background-color: red;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+
+.acerca{
+    display: flex;
+    margin-top: 100px;
+    background-color: yellow;
+    padding: 25px;
+    color: white;
+}
+
+.img_acerca{
+    width: 600px;
+}
+
+.text{
+    padding-left: 25px;
+    color: black;
+}
+
+#contacto{
+    float: left;
+}
+
+#redes_sociales{
+    text-align: center;
+    text-align: top;
+    float: right;
+}
+
+
+.carrito{
+    display: flex;
+    margin-top: 100px;
+    background-color: white;
+    padding: 25px;
+    color: white;
+}
+
+
+.img_carrito{
+    width: 350px;
+}
+
+.carrito a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.carrito a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    color: white;
+
+}
+
+footer a{
+    color: white;
+}
+footer{
+    height: 150px;
+    background-color: black;
+    margin-top: 90px;
+    border-radius: 400px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
